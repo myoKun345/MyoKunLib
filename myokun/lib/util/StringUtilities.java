@@ -8,14 +8,14 @@
  */
 package myokun.lib.util;
 
-public class StringUtils {
+public class StringUtilities {
     
     /**
      * Just a method that finds the index of the first uppercase character in a string.
      * @param string - The string
      * @return the index of the first uppercase letter
      */
-    public int firstIndexOfUppercase(String string) {
+    public static int firstIndexOfUppercase(String string) {
         
         for (int i = 0; i < string.length(); i++) {
             if (Character.isUpperCase(string.charAt(i))) {
