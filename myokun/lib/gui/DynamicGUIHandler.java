@@ -10,7 +10,11 @@ package myokun.lib.gui;
 
 public class DynamicGUIHandler {
 	
-	public static void drawBackground(int guiLeft, int guiTop, Slice slice) {
+	public static void drawBackground(int guiLeft, int guiTop, int width, int height, Slice9 nineSlice) {
+		
+	}
+	
+	public static void drawBackground(int guiLeft, int guiTop, int width, Slice3 threeSlice) {
 		
 	}
 	
