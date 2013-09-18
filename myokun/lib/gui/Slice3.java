@@ -12,6 +12,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class Slice3 {
 	
+	private ResourceLocation tex;
 	private Slice[] slices = new Slice[3];
 	
 	/**
@@ -21,10 +22,13 @@ public class Slice3 {
 	 */
 	public Slice3(ResourceLocation texture, 
 			Slice s0, Slice s1, Slice s2) {
+		this.tex = texture;
 		this.slices[0] = s0;
 		this.slices[1] = s1;
 		this.slices[2] = s2;
 	}
+	
+	public ResourceLocation getTexture() {return this.tex;}
 	
 	public Slice getSlice(int index) {return this.slices[index];}
 	
