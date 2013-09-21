@@ -21,4 +21,9 @@ public class Coordinate {
 	public int getX() {return this.x;}
 	public int getY() {return this.y;}
 	
+	@Override
+	public String toString() {
+		return this.getX() + "," + this.getY();
+	}
+	
 }
