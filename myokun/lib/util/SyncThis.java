@@ -8,8 +8,9 @@
  */
 package myokun.lib.util;
 
-public @interface SyncThis {
-	
-	Class type();
-	
-}
+/**
+ * Use this annotation to tell MKL to automatically synchronize the variable between server and client sides.
+ * 
+ * NOT YET IMPLEMENTED
+ */
+public @interface SyncThis {}
